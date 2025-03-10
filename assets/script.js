@@ -44,7 +44,7 @@ async function downloadApp(platform, button) {
             console.log('iOS version is not launched yet.');
         } else if (platform === 'web') {
             // Redirect to web app URL
-            const webUrl = '';
+            const webUrl = 'https://messki.web.app/';
             window.location.href = webUrl;
             buttonText.innerText = 'Redirecting to the web app...';
             console.log(`Launching the web app: ${webUrl}`);
